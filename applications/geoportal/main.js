@@ -2,6 +2,9 @@ import 'oskari-loader!oskari-frontend/packages/framework/bundle/mapfull/bundle.j
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/oskariui/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/ui-components/bundle.js';
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/divmanazer/bundle.js';
+import 'oskari-loader!oskari-frontend/packages/framework/bundle/language-selector/bundle.js';
+import 'oskari-loader!oskari-frontend/packages/framework/bundle/printout/bundle.js';
+
 
 import 'oskari-loader!oskari-frontend/packages/mapping/ol/mapmodule/bundle.js';
 
@@ -46,7 +49,7 @@ import 'oskari-loader!oskari-frontend/packages/mapping/dimension-change/bundle.j
 
 import 'oskari-loader!../../packages/sample/bundle/sample-info/bundle.js';
 
-import 'oskari-lazy-loader?printout!oskari-frontend/packages/framework/bundle/printout/bundle.js';
+// import 'oskari-lazy-loader?printout!oskari-frontend/packages/framework/bundle/printout/bundle.js';
 import 'oskari-lazy-loader?postprocessor!oskari-frontend/packages/framework/bundle/postprocessor/bundle.js';
 import 'oskari-lazy-loader?admin-layereditor!oskari-frontend/packages/admin/bundle/admin-layereditor/bundle.js';
 import 'oskari-lazy-loader?admin-layerrights!oskari-frontend/packages/framework/bundle/admin-layerrights/bundle.js';
