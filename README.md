@@ -1,8 +1,8 @@
-# ![texto alternativo](../master/applications/geoportal/logo.png "Oskari") Muestra de aplicación
+# ![Logo Oskari](../master/applications/geoportal/logo.png "Oskari") Aplicación de muestra
 
 Este es un ejemplo que puede ser usado como una plantilla para construir el frontend de la aplicación Oskari.
 
-Da clíc en el botón de "Usar esta plantilla" en el repositorio para crear una copia de los archivos bajo tu nombre de usuario y empieza a personalizarlo.
+Da clíc en el botón de "Use this template" en el repositorio para crear una copia de los archivos bajo tu nombre de usuario y empieza a personalizarlo.
 
 Esta aplicación puede ser vista en http://dev.oskari.org. Para el backend mira https://github.com/oskariorg/sample-server-extension.
 
@@ -11,20 +11,20 @@ Esta aplicación puede ser vista en http://dev.oskari.org. Para el backend mira 
 Aquí estan los pasos para configurar el entorno de construcción:
 
 1. Asegúrate de contar con los programas de líneas de comando `git`, y `node` version 8 o mayor
-2. Clona el repositorio de aplicación (éste): `git clone https://github.com/oskariorg/sample-application.git`
+2. Clona el repositorio de aplicación (éste): `git clone https://github.com/UPTechMX/es_py_oskari-application.git`
 3. Ejecuta `npm install`
 
 ## Crea to propia aplicación Oskari
 
-Después de completar la configuración básica (arriba), la aplicación puede construir directamente desde este repositorio con eg. `npm run build`. El output se encontrara debajo de `dist/`.
+Después de completar la configuración básica (arriba), la aplicación se puede construir directamente desde este repositorio con eg. `npm run build`. El output se encontrara debajo de `dist/`.
 
-Mira el principal [repositorio de oskari-frontend](https://github.com/oskariorg/oskari-frontend#readme) para instrucciones detalladas acerca de los parámetros construidos.
+Mira el principal [repositorio de oskari-frontend](https://github.com/UPTechMx/oskari-frontend#readme) para instrucciones detalladas acerca de los parámetros construidos.
 
 ### Composición de la aplicación
 
-Una aplicación de Oskari frontend consiste de bundles (módulos) que se definen en la `main.js` para cada aplicación (un ejemplo se encuentra en [aquí](../master/applications/geoportal/main.js)). Sólo los bundles (módulos) referenciados aquí pueden ser ejemplificados al momento de ejecutar.
+Una aplicación de Oskari frontend consiste de bundles (módulos) que se definen en la `main.js` para cada aplicación (un ejemplo se encuentra [aquí](../master/applications/geoportal/main.js)). Sólo los bundles (módulos) referenciados aquí pueden ser ejemplificados al momento de ejecutar.
 
-Las aplicaciones usan el paquete de framework de oskari-frontend para crear estructuras. El framework introduce cargadores que puede ser usados para importar bundles (módulos) de Oskari.
+Las aplicaciones usan el paquete de framework de oskari-frontend para crear estructuras. El framework introduce cargadores que pueden ser usados para importar bundles (módulos) de Oskari.
 
 * cargador oskari
 
@@ -52,9 +52,9 @@ scripts: [
 
 #### Modo de desarrollo de Oskari
 
-El modo de desarrollo de Oskari es útil cuando se desarrolla el framework de Oskari. Porque el framework no contiene una aplicación en sí mismo, la muestra de aplicación puede ser utilizada cuando se desarrollan nuevos carácteristicas de Oskari.
+El modo de desarrollo de Oskari es útil cuando se desarrolla el framework de Oskari. Porque el framework no contiene una aplicación en sí mismo, la apliación de muestra puede ser utilizada cuando se desarrollan nuevos carácteristicas de Oskari.
 
-1. Clona el repositorio `oskari-frontend` cercano al repositorio de la aplicación: `git clone https://github.com/oskariorg/oskari-frontend.git`
+1. Clona el repositorio `oskari-frontend` cercano al repositorio de la aplicación: `git clone https://github.com/UPTechMX/oskari-frontend.git`
 2. Ejecuta `npm run dev-mode:enable` en el repositorio de la aplicación.
 
 En este modelo, queda a decisición del desarrollador la revisión de las ramas/versiones correctas de la dependencia de `oskari-frontend`.
@@ -89,9 +89,9 @@ Después de ejecutar la producción de la estructura, es posible crear un conjun
 ¡Note! Primero debes ejecutar una producción de la estructura para la aplicación para crear el dist-folder correspondiente. Con el comando de ejemplo el sprite se generará debajo del folder `dist\1.0.0\geoportal` como `icons.png` y `icons.css`.\
 ¡Note! Para utilizar los íconos personalizados configura tu HTML (JSP) a las necesidades del servidor de oskari para vincular los íconos.css bajo el folder de la aplicación (Los JSP predefinidos lo vincula bajo oskari-frontend/resources/icons.css).
 
-## Desarrollo del servidor
+## Servidor de desarrollo
 
-Ejecuta `npm start` para desarrollar el servidor con auto reload para JS y hot reload para SCSS.
+Ejecuta `npm start` para levantar el servidor de desarrollo con auto reload para JS y hot reload para SCSS.
 
 # Reporte de problemas
 Todos los problemas relacionados con Oskari deberían ser reportados aquí: https://github.com/oskariorg/oskari-docs/issues
